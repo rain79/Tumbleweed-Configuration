@@ -16,6 +16,7 @@ Once all the dependencies are installed, it will compile and setup DWM, DMenu an
 
 My linux Tumbleweed Configuration
 
+
 Installed OpenSUSE with KDE to setup network manager and basic things.
 Once setup, I setup DWM and started to create a script to do the setup
 in a more automatic way. It should compile my config for DWM, ST and
