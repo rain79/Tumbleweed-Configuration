@@ -7,7 +7,7 @@ workingdir=$HOME
 sudo -v
 
 #First clone the git directory for DWM, DMenu and the ST Terminal
-#git clone rain79/openSUSE-dwm
+git clone https://github.com/rain79/openSUSE-dwm.git
 
 #Then install requied dependencies
 sudo zypper -n install feh libXft-devel libX11-devel libXinerama-devel neofetch picom
