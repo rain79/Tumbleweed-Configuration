@@ -15,4 +15,3 @@ Once all the dependencies are installed, it will compile and setup DWM, DMenu an
  
 =======
 My linux Tumbleweed Configuration
->>>>>>> b3e0387cb09f20a2fb8b4de2621cb10f5c6e2b02
