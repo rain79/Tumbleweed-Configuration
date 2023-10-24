@@ -19,7 +19,7 @@ cd $workingdir
 cd openSUSE-dwm
 
 #install dwm, st, and dmenu
-for app in dwm st dmenu; do
+for app in dwm st dmenu slstatus; do
     cd "$app"
     sudo make clean install
     cd ..
