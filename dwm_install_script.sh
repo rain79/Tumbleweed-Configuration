@@ -19,7 +19,7 @@ cd $workingdir
 cd openSUSE-dwm
 
 #install dwm, st, and dmenu
-for app in dwm st dmenu slstatus; do
+for app in dwm st dmenu dwmblocks; do
     cd "$app"
     sudo make clean install
     cd ..
@@ -34,6 +34,9 @@ cp /Tumbleweed-Configuration/static/.bashrc $workingdir/
 #Create Wallpaper folder in Pictures and copy  desktop wallpaper
 mkdir Pictures/Wallpaper
 cp Tumbleweed-Configuration/static/opensuse-skulls.png Pictures/Wallpaper/ 
+
+#Copy dwmblocks status bar scripts to local bin for simple running
+cp /Tumbleweed-Configuration/static/sb* $workingdir/.local/bin
 
 # Move DWM session file in XDG directory
 read -n1 -p "Are you using a login manager? [y|n]" choice
